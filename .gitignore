@@ -1,6 +1,11 @@
 # Ignore Gradle project-specific cache directory
 .gradle
 
+# IMPORTANT: Ignore token files for security reasons
+gradle.properties
+
 # Ignore Gradle build output directory
 build
+
+# Ignore VSC Java project output directory
 bin
